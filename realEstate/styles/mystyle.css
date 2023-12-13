@@ -1,0 +1,308 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+    ;
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-blog{
+    width: 100%;
+    height: 450px;
+}
+/*header*/
+.site-init{
+    background-color: gray;
+    background-image: url(../img/header.jpg);
+    height: 250px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.site-init a,
+.site-secondary a{
+    color: white;
+}
+
+.header-blog{
+    background-color: gray;
+    height: 250px;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    background-image: url(../img/blog2.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    
+}
+
+@media(max-width:768){
+    .bar{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .site-init{
+        height: 20vh;
+    }
+}
+
+.site-third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    height: 250px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-color: grey;
+}
+
+
+/*footer*/
+.footer{
+    background-color: gray;
+    height: 250px;
+    color: white;
+    text-align: center;
+    background-image: url(../img/encuentra.jpg);
+    
+}
+
+.footer-p-b-{
+    font-size: 20px;
+}
+
+/*utilites*/
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:768px) {
+    .container{
+        width: 95%;
+    }
+}
+
+.title{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    margin: auto;
+    
+
+}
+
+.flex-container-a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+/*more about us*/
+.more-about-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+@media(max-width:768px){
+    .more-about-container{
+        flex-direction: column;
+    }
+}
+
+.contact-h2{
+    text-align: center;
+    font-size: x-large;
+}
+
+.contact-info{
+    font-size: 12px;
+}
+
+.more-about-item{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.more-about-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.more-about-item h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.btn-details{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    display: block;
+    height: 40px;
+}
+
+.money{
+    color: green;
+}
+
+.h1-contact{
+    color: white;
+
+}
+/*contact*/
+fieldset{
+    padding: 20px;
+}
+
+legend{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-container{
+    padding: 10px;
+}
+
+.input-container label{
+    display: inline-block;
+    width: 180px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-container input,
+.input-container textarea,
+.input-container select,
+.input{
+    background-color: grey;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70%;
+
+}
+
+.btn-send{
+    display: block;
+    margin-top: 50px;
+}
+
+/*houses and penthouses*/
+.house-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.house-item{
+    background-color: grey;
+    margin-right: 10px;
+}
+
+@media(max-width:768px) {
+    .house-container{
+        flex-direction: column;
+    }
+    .house-item{
+        margin: 10px;
+    }
+}
+
+.house-text{
+    padding: 10px;
+}
+
+.icon-container{
+    display: flex;
+}
+
+.icon-item{
+    display: flex;
+}
+
+.blog-div{
+    text-align: center;
+}
+
+.aboutback{
+    background-image: url(../img/aboutback4.jpg);
+}
+
+.about-header{
+    height: 5px;
+    text-align: center;
+    padding: 150px;
+}
+
+.about-nav{
+    display: flex;
+    ;
+    height: 100px;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+    
+}
+
+.footer-about{
+    height: 150px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 250px;
+}
+
+.para{
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+}
+
+.para-3{
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+}
+
+.h2-aobut{
+    color: black;
+}
